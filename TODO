@@ -1,0 +1,48 @@
+Requirements :-
+
+Make a lib which will help to print Labels of names for Invitation
+Records will be provide.
+Lib should able to print Labels in required format and it also should able to filter the records
+
+Label should be in format of :-
+
++----------------------+
+| Mr John Smith        |
+|----------------------|
+| New Delhi, Karnataka |
+| India                |
++----------------------+
+
+          OR
+
++----------------------+
+| Mr Smith, John       |
+|----------------------|
+| New Delhi, Karnataka |
+| India                |
++----------------------+
+
+They are very particular about the size of the boders with a margin of one space between the text and the borders. 
+
+filtering options
+> "by country"
+> "by age and country"
+> "by age"
+
+Input :-
+> options from command line (need to process input);
+> records file (need to reed file);
+
+
+------------------------------------------------------------------------------------------------------------------------
+TODO :-
+
+Person person = new Person(name,age,gender,address);
+> String = Person.formalName();
+> String = Person.inFormalName();
+> String = Person.address();
+> boolean = isOlderThan(int age);
+> boolean = isOfCountry(String country);
+
+Name name = new Name(firstName, lastName);
+Address address = new Address(city,state,country);
